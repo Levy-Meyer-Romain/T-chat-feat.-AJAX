@@ -1,0 +1,115 @@
+body
+{
+    position:relative;
+}
+#login
+{
+    position:absolute;
+    top:30rem;
+    left:25rem;
+    z-index: 2;
+    width: 30rem;
+}
+
+#login label
+{
+    color:white;
+}
+#connexion
+{
+    width: 100%;
+    height:100%;
+    background-color: black;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    opacity:0.5;
+}
+
+#messageList
+{
+    width: 85%;
+    height: 100%;
+    background-image: url("../images/design-tchat-userList.png");
+    background-size: cover;   
+    position: relative;
+}
+
+#messageList ul
+{
+    color: white;
+}
+
+#insideMessageList
+{
+    width: 95%;
+    height: 85%;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: black;
+    opacity: 1;
+    border:ridge 0.3rem;
+    border-color: Brown;
+    border-radius: 0.5rem;
+
+}
+
+
+#userList {
+    width: 15%;
+    height: 100%;
+    background-image: url("../images/design-tchat-userList.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 85%;
+    border-left:ridge 0.3rem;
+    border-color: Brown;
+}
+
+#userList ul 
+{
+    margin-top: 7.5rem;
+}
+
+#userList ul li
+{
+    text-align: center;
+    background-color: Grey;
+    padding: 0.5rem;
+    border-bottom: solid 0.1rem;
+    border-bottom-color: rgb(60, 60, 60);
+
+}
+
+#writeMessage
+{
+    width: 100%;
+    height: 2rem;
+    bottom:1rem;
+
+}
+
+#titreUser
+{
+    position: absolute;
+    bottom: 55rem;
+    left: 21%;
+    font-family: Cinzel;
+    color: bisque;
+
+}
+
+#titreMessage
+{
+    position: absolute;
+    bottom: 52rem;
+    left: 17%;
+    font-size: 4rem;
+    font-family: Cinzel;
+    color: bisque;
+    
+}
